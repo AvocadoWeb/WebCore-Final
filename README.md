@@ -1,5 +1,5 @@
 + GitPages: https://avocadoweb.github.io/WebCore-Final/
-+ 
+
 # Webpack Static Site Starter Kit
 
 ## Требования к проекту
