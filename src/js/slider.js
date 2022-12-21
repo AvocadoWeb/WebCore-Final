@@ -1,5 +1,3 @@
-/*СЛАЙДЕР*/
-
 (function () {
 
     'use strict';
@@ -35,8 +33,6 @@
     breakpointChecker();
 })();
 
-/*READMORE*/
-
 let readmore = document.querySelectorAll('.readmore');
 let read = document.querySelector('.read');
 for (let i = 0; i < readmore.length; i++) {
@@ -61,7 +57,7 @@ for (let i = 0; i < showmoreTechnic.length; i++) {
             moreTechnic.textContent = 'Показать всё';
         }
     });
-}
+};
 
 let showmore = document.querySelectorAll('.showmore');
 let more = document.querySelector(".more");
@@ -74,9 +70,7 @@ for (let i = 0; i < showmore.length; i++) {
             more.textContent = 'Показать всё';
         }
     });
-}
-
-/*МЕНЮ-БУРГЕР*/
+};
 
 const btnMenu = document.querySelector(".menu-select__menu");
 const btnMenuExit = document.querySelector(".menubar-burg__exit");
@@ -115,9 +109,6 @@ document.addEventListener("click", function (e) {
         bg.style.opacity = '1';
     }
 });
-
-
-/*МОДАЛЬНЫЕ ОКНА*/
 
 const call = document.querySelector('.modal__call');
 const feedback = document.querySelector('.modal__feedback');
