@@ -39,6 +39,11 @@
 }
 
 @media (min-width: 1440px) {
+    .menubar {
+        position: sticky;
+        top: 0;
+        height: 0vh;
+    }
 
     .menubar-burg,
     .menubar-burg__exit {

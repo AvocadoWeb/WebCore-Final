@@ -86,10 +86,12 @@ const bg = document.querySelector('.page');
 const toggleMenu = function () {
     menu.classList.toggle('menubar--active');
     bg.style.opacity = '0.1';
+    window.onscroll = function () { window.scrollTo(0, 0); };
 };
 const removeMenu = function () {
     menu.classList.remove('menubar--active');
     bg.style.opacity = '1';
+    window.onscroll = function () { window.scrollTo(x, y); };
 };
 
 btnMenu.addEventListener("click", function (e) {
@@ -133,6 +135,7 @@ openCall.forEach(function (button) {
         menubar.classList.remove('menubar--active');
         bg.style.opacity = '0.1';
         menubar.style.opacity = '0.1';
+        window.onscroll = function () { window.scrollTo(0, 0); };
     });
 
 });
@@ -143,6 +146,7 @@ closeCall.forEach(function (button) {
         call.classList.remove('call--active');
         bg.style.opacity = '1';
         menubar.style.opacity = '1';
+        window.onscroll = function () { window.scrollTo(x, y); };
     });
 });
 
@@ -154,6 +158,7 @@ openFeedback.forEach(function (button) {
         menubar.classList.remove('menubar--active');
         bg.style.opacity = '0.1';
         menubar.style.opacity = '0.1';
+        window.onscroll = function () { window.scrollTo(0, 0); };
     });
 
 });
@@ -164,6 +169,7 @@ closeFeedback.forEach(function (button) {
         feedback.classList.remove('feedback--active');
         bg.style.opacity = '1';
         menubar.style.opacity = '1';
+        window.onscroll = function () { window.scrollTo(x, y); };
     });
 });
 

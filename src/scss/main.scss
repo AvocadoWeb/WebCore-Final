@@ -107,6 +107,18 @@ body {
     transform: scale(1.2);
 }
 
+.menu-select__repair > .btn-model:hover,
+.menu-select__chekstatus > .btn-model:hover {
+    transition: none;
+    transform: none;
+}
+
+.menu-select__repair:hover,
+.menu-select__chekstatus:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
 /*КОНТЕЙНЕР*/
 
 @media (min-width: 1440px) {
@@ -130,7 +142,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 100vh;
+    height: auto;
 
 }
 
@@ -436,7 +448,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    transition: max-height ease;
+    transition: max-height 2s ease;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.2px;
