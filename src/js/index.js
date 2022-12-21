@@ -5,6 +5,6 @@ import '../scss/slider.scss'
 import '../scss/order-slider.scss'
 import '../scss/footer.scss'
 import '../scss/feedback-call.scss'
-import '../js/slider-js.js'
+import '../js/slider.js'
 
 console.log('Works!')
